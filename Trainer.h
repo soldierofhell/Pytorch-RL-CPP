@@ -9,7 +9,7 @@
 #include "dqn.h"
 #include "/home/miron/rl/dustynv_rl/Arcade-Learning-Environment/src/ale_interface.hpp"
 
-
+using namespace ale;
 
 class Trainer{
 
