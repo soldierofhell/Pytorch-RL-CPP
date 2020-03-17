@@ -1,7 +1,7 @@
 #include "Trainer.h"
 #include <iostream>
 // Move torch imports before ale because ale uses namespace std which interferes with the torch imports.
-#include "/Users/navneetmadhukumar/Downloads/Arcade-Learning-Environment-master/src/ale_interface.hpp"
+#include "/home/miron/rl/dustynv_rl/Arcade-Learning-Environment/src/ale_interface.hpp"
 
 
 int main() {
