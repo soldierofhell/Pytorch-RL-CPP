@@ -7,7 +7,7 @@ project(Reinforcement_CPP
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(Torch_DIR /Users/navneetmadhukumar/Downloads/libtorch/share/cmake/Torch)
+set(Torch_DIR /home/miron/rl/dustynv_rl/libtorch/share/cmake/Torch)
 
 
 set(CPPRL_INCLUDE_DIRS
@@ -22,5 +22,5 @@ add_executable(Reinforcement_CPP main.cpp ExperienceReplay.cpp ExperienceReplay.
 
 include_directories(${CPPRL_INCLUDE_DIRS})
 
-find_library(LIBALE libale.so /Users/navneetmadhukumar/Downloads/Arcade-Learning-Environment-master/)
+find_library(LIBALE libale.so /home/miron/rl/dustynv_rl/Arcade-Learning-Environment/)
 target_link_libraries(Reinforcement_CPP  ${LIBALE} ${TORCH_LIBRARIES} )
