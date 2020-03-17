@@ -4,7 +4,7 @@
 #include "Trainer.h"
 #include "dqn.h"
 #include "ExperienceReplay.h"
-#include "/Users/navneetmadhukumar/Downloads/Arcade-Learning-Environment-master/src/ale_interface.hpp"
+#include "/home/miron/rl/dustynv_rl/Arcade-Learning-Environment/src/ale_interface.hpp"
 #include <math.h>
 #include <chrono>
 
